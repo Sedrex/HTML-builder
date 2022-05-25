@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
-const stylesDir = path.join(__dirname, 'styles');
-const bundlePath = path.join(__dirname, 'project-dist', 'bundle.css');
+const stylesDir = './05-merge-styles/styles';
+const bundlePath = './05-merge-styles/project-dist/bundle.css';
 
 const writeStream = fs.createWriteStream(bundlePath);
 
